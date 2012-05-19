@@ -43,7 +43,8 @@
   (let1 fpath (concat (snippets:snippet-directory) "/" candidate)
     (save-restriction
       (narrow-to-region (point) (point))
-      (insert-file-contents fpath)
+      ;;(insert-file-contents fpath)
+      (simple-template fpath)
       (goto-char (point-max)))))
 
 (defvar snippets:anything-c-source
