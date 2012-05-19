@@ -1,0 +1,14 @@
+import unittest
+
+class @Tests(unittest.TestCase):
+    def getTarget(self, *args, **kwargs):
+        return 
+
+    def makeOne(self, *args, **kwargs):
+        return
+
+    def test_it(self):
+        pass
+
+if __name__ == "__main__":
+    unittest.testmain()

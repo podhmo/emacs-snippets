@@ -1,0 +1,4 @@
+class @name(Base):
+    id = sa.Colum(sa.Integer, primary_key=True)
+    tablename__ = "@"
+    
